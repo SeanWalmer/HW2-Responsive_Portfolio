@@ -7,42 +7,65 @@
       <!-- bootcamp css link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link id="page_favicon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACr/AA6/8AD/ewAAHrA2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzMzMwIiIiIDMzMzAiIiIgMzMzMCIiIiAzMzMwIiIiIDMzMzAiIiIgMzMzMCIiIiAzMzMwIiIiIAAAAAAAAAAAEREREEREREAREREQREREQBERERBERERAEREREEREREAREREQREREQBERERBERERAEREREEREREAREREQRERESAgAAAgIAAAICAAACAgAAAgIAAAICAAACAgAAA//8AAICAAACAgAAAgIAAAICAAACAgAAAgIAAAICAAACAgAAA" rel="icon">
+    <!-- extra styles for backgrounds and image rotation -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="d-inline p-2 bg-primary text-white rounded-pill" href="#">Sean Walmer</a>
+        <a class="d-inline p-2 bg-primary text-white rounded-pill" href="https://www.linkedin.com/in/seanwalmer/">Sean Walmer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="Index.html">Home</a>
-                <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="contact.html">Contact</a>
             </div>
         </div>
     </nav>
     <!-- portfolio section -->
-    <summary class="container-sm float-left">
-        <div class="jumbotron">
+    <br>
+    <section class="container-sm float-left">
+        <main class="jumbotron">
             <div class="Row">
-            <h1 class="display-3">portfolio</h1>
-            <p class="lead">Just a few of my works</p>
-            <hr class="my-4">
-            <div class="row">
-                <div class="col-sm">col-sm</div>
-                <div class="col-sm">col-sm</div>
-                <div class="col-sm">col-sm</div>
-              </div>
-            <div class="row">
-                <div class="col-sm">col-sm</div>
-                <div class="col-sm">col-sm</div>
-                <div class="col-sm">col-sm</div>
-              </div>
-        </div>
-    </summary>
+                <h1 class="display-3">Portfolio</h1>
+                <p class="lead">Just a few of my works</p>
+                <hr class="my-4">
+            </div>
+            <!-- first row of images -->
+            <section class="row">
+                <figure class="col-sm figure">
+                    <img src="Assets\pottery\mug2.jpg" class="figure-img img-fluid rounded img-thumbnail rotate" alt="Handmade ceramic mug, small size, grey blue color">
+                    <figcaption class="figure-caption text-right">Small mug, Becca's Blue</figcaption>
+                  </figure>
+                <figure class="col-sm figure">
+                    <img src="Assets\pottery\mug1.jpg" class="figure-img img-fluid rounded img-thumbnail rotate" alt="Handmade ceramic mug, medium size, light blue color">
+                    <figcaption class="figure-caption text-right">Medium mug, Lux Blue</figcaption>
+                  </figure>
+                <figure class="col-sm figure">
+                    <img src="Assets\pottery\mug3.jpg" class="figure-img img-fluid rounded img-thumbnail rotate" alt="Handmade ceramic mug, large size, grey blue color">
+                    <figcaption class="figure-caption text-right">Large mug, Becca's Blue</figcaption>
+                  </figure>
+            </section>
+            <!-- second row of images -->
+            <section class="row">
+                <figure class="col-sm figure">
+                    <img src="Assets\pottery\mug4.jpg" class="figure-img img-fluid rounded img-thumbnail rotate" alt="two mugs, one is ontop of a small plate">
+                    <figcaption class="figure-caption text-right">Double cup and a small plate</figcaption>
+                  </figure>
+                <figure class="col-sm figure">
+                    <img src="Assets\pottery\plates1.jpg" class="figure-img img-fluid rounded img-thumbnail rotate" alt="three plates of incresing size stacked on eachother">
+                    <figcaption class="figure-caption text-right">Three plates made to stack on eachother</figcaption>
+                  </figure>
+                <figure class="col-sm figure">
+                    <img src="Assets\pottery\mug5.jpg" class="figure-img img-fluid rounded img-thumbnail rotate" alt="small light green mug">
+                    <figcaption class="figure-caption text-right">Small mug, Lux green</figcaption>
+                  </figure>
+            </section>
+        </main>
+    </section>
 </body>
 <!-- bootcamp javascript -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
